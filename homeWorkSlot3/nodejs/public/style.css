@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.avatar{
+    width: 220px;
+    height: 220px;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar {
+    padding-left: 80px;
+    padding-right: 100px;
+    border-right: 1px #d4d4d4 solid;
+}
+
+
+
+.menu-bar .user {
+    width: 240px;
+    height: 110px;
+    text-align: center;
+    font-size:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-bar .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar .menu>* {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu-bar .menu a:hover{
+    color: purple;
+    border-bottom: 4px solid purple;
+    width: fit-content;
+}
+.menu-bar p{
+    margin-top: 150px;;
+    font-size:15px;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content .service{
+    font-size: 40px;
+    padding: 100px 20px 100px;
+    border-top: 1px #d4d4d4 solid;
+}
+.content .top-right{
+    height: 5%;
+}
+.content .icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom : 1px #d4d4d4 solid;
+    padding-bottom: 5%;
+}
+.content .icon >*{
+    width: 30%;
+    padding: 20px 0px 50px 20px;
+}
+.content .icon h4{
+    padding: 20px 0px 20px;
+}
+.content .icon p{
+    font-size: 16px;
+    color: grey;
+}
+.image {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(78, 24, 129);
+    border: 50px;
+    padding: 10px;
+}

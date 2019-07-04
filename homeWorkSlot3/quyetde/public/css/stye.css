@@ -1,0 +1,16 @@
+.vote{
+    display: inline-block;
+    width: 49%;
+}
+.result{
+    display: inline-block;
+    width: 49%;
+}
+.true{
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+.false{
+    padding-top: 8vh;
+    padding-left: 80px;
+}
