@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 35vh;
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+.banner h1,.banner h4{
+    color: white;
+}
+.main-content h4{
+    color: white;
+}
+.image-container{
+    display: block;
+}
+.image-detail{
+    display: inline-block;
+    width: 32%;
+}
+
+#mexico{
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/29/20/09/mexican-2456038_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+#new-york{
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/01/12/35/taxi-cab-381233_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+#tokyo{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/20/11/39/japan-4141578_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+#paris{
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+#other{
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/01/12/35/taxi-cab-381233_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
