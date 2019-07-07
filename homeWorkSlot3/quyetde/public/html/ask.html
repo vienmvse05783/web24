@@ -6,28 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="../js/main.js"></script>
 </head>
 
 <body>
-    <div class="menu">
-        <a href="/">Đáp Gọn </a>
-    </div>
     <div>
+        <div style="display: inline-block;">
+            <a href="./hoi-nhanh.html">Hỏi nhanh</a>
+        </div>
+        <div style="display: inline-block;">
+            <a href="./index.html">Đáp gọn</a>
+        </div>
+    </div>
+    <div style="margin-left: 20%;">
+
         <div>
-            <h3>Hãy hỏi cộng đồng 1 câu hỏi đúng /sai hoặc có / không ?</h3>
+            <h2>Hãy hỏi cộng đồng một câu</h2>
         </div>
         <div>
-            <textarea rows="9"></textarea>
+            <textarea cols="100" rows="10" id="textarea" oninput="countCharacter()"></textarea>
         </div>
         <div>
-            <h6>Còn 200/200 kí tự </h6>
+            <label>Còn </label><label id="numChar">200</label>/200 ký tự</label>
+            <p hidden id="error" style="color: red;"></p>
         </div>
-        <div>
-            <button>Gửi </button>
-        </div>
+        <button onclick="checkBlank()">Gửi</button>
+
     </div>
 
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
