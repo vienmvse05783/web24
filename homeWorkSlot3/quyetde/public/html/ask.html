@@ -52,11 +52,18 @@
             $("#counter").html(`còn ${200 - $(this).val().length}/200 ký tự`);
         });
 
+        checkBlank = () => {
+            var textInput = document.getElementById("textarea").value.trim().length;
+            if (textInput == 0) {
+                document.getElementById("error").hidden = false;
+                document.getElementById("error").innerHTML = "Not Blank!";
+            } else {
+                document.getElementById("error").hidden = true;
+            }
+        }
+
     </script>
-    <script src="../js/main.js" ></script>
-
-
-
+    <script src="../js/ask.js"></script>
     <div id="naptha_container0932014_0707"></div>
 </body>
 
