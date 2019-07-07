@@ -43,7 +43,8 @@
             <h1>Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không</h1>
             <textarea class="form-control" maxlength="200" rows="6" id="question" name="question"></textarea>
             <p class="text-muted" id="counter">Còn 200/200 kí tự</p>
-            <button class="btn btn-primary" type="submit" id="btn_ask">Gửi</button>
+            <p id="error" style="color: red;"></p>
+            <button class="btn btn-primary" onclick="checkBlank()" type="submit" id="btn_ask">Gửi</button>
         </form>
     </div>
     <script type="text/javascript">
@@ -52,6 +53,7 @@
         });
 
     </script>
+    <script src="../js/main.js" ></script>
 
 
 
