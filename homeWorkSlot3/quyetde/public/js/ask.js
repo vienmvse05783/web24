@@ -29,7 +29,7 @@ window.onload = () => {
                 })
                 .then((data)=>{
                     if(data.success){
-
+//redirect to question detail
                     }else{
                         window.alert(data.message);
                     }
