@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <a href='/ask'>Ask a question</a>
+    <a href='/'>Answer</a>
+  </div>
+
+  <div class="question-container">
+    <div>
+      <h3 id="question-content" style="text-align: center"></h3>
+    </div>
+    <div id='question-vote' style="text-align: center;"></div> <br> <br>
+    <div class='question-answer-right' style='display: inline-block;margin-left: 25%;'>
+      <button type="button" onclick="updateLike()">Dung</button>
+    </div>
+    <div class='question-answer-wrong' style="display: inline-block;margin-left: 50%;">
+      <button type="button" onclick="updateDislike()">Sai</button>
+    </div>
+    <div class='other-question' style='margin-left: 46%;'>
+      <button type="button" onclick="window.location.href='/'">Cau hoi khac</button>
+    </div>
+  </div>
+
+  <script src='../js/index.js'></script>
+</body>
+
+</html>
