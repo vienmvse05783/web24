@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-text {
+    text-align: center;
+    font-weight: inherit;
+}
+
+.header-text > h2{
+    font-weight: bolder;
+}
+
+.card-img-top{
+    height: 190px;
+}
+.card{
+    border: 0;
+    margin: 20px;
+    padding: 0px;
+    
+}
